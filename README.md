@@ -6,6 +6,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning)
 
 - [Tenable Windows: Authenticated vs Unauthenticated](labs/tenable-windows-auth-vs-unauth/)
 - [Tenable Linux: Authenticated vs Unauthenticated](labs/tenable-linux-auth-vs-unauth/)
+- [Tenable Windows 11: Template Scan + STIG Compliance](labs/tenable-windows11-stig-template-scan/)
 
 ## Redaction policy
 
