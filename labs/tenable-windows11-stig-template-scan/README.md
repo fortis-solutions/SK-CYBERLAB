@@ -6,69 +6,66 @@ Build and use a reusable Tenable scan template for a Windows 11 VM, then run a c
 
 ## Environment
 
-- Azure-hosted Windows 11 virtual machine
-- Tenable Vulnerability Management (cloud)
-- Scan type: Advanced Network Scan template
-- Credentialed checks with Windows administrator credentials
-- Compliance audit: DISA Microsoft Windows 11 STIG (or closest available revision)
-
-## Workflow Summary
-
-1. Create a Windows 11 VM in Azure and prepare network access.
-2. Configure host prerequisites (for lab simulation), including firewall/host settings needed for connectivity and scanning.
-3. Create a Tenable scan template and configure:
-- Basic settings (service startup/share options)
-- Discovery settings (ping, fast network discovery, TCP scanning)
-- Assessment settings (thorough tests)
-- Credentials (Windows admin account)
-- Compliance audit selection (Windows 11 STIG)
-- Plugin scope (general, policy/compliance, Windows checks/bulletins/user management)
-4. Create a scan from the template, set target IP, launch, and review vulnerabilities, audits, and remediations.
+- Cloud-hosted Windows 11 VM (Azure)
+- Tenable Vulnerability Management
+- Advanced Network Scan template
+- Windows credentialed scanning (administrator account)
+- Compliance audit profile for DISA Microsoft Windows 11 STIG
 
 ## Evidence
 
-### 1) Azure VM creation
+### Windows 11 VM creation in Azure
+
 ![Azure VM creation](evidence/01-azure-vm-creation.png)
 
-### 2) Host firewall adjustment for lab connectivity
+### Firewall/host preparation for lab connectivity
+
 ![Disable firewall](evidence/02-disable-firewall.png)
 
-### 3) Template basic setup
+### Template basic configuration
+
 ![Template basic settings](evidence/03-template-basic-settings.png)
 
-### 4) Selecting scan template in Tenable
+### Scan template selection in Tenable
+
 ![Select template](evidence/04-select-template.png)
 
-### 5) Discovery settings (TCP + fast discovery)
+### Discovery settings (TCP + fast discovery)
+
 ![Discovery settings](evidence/05-discovery-settings.png)
 
-### 6) Assessment settings
+### Assessment settings
+
 ![Assessment settings](evidence/06-assessment-settings.png)
 
-### 7) Compliance audit assignment (STIG)
+### Compliance audit selection (Windows 11 STIG)
+
 ![Compliance STIG selection](evidence/07-compliance-stig-selection.png)
 
-### 8) Plugin selection
+### Plugin scope selection
+
 ![Plugin selection](evidence/08-plugin-selection.png)
 
-### 9) Final scan setup from template
+### Final scan setup from template
+
 ![Scan setup from template](evidence/09-scan-setup-from-template.png)
 
-### 10) Audit results showing compliance failures
+### Compliance audit results with failures
+
 ![Audit compliance failures](evidence/10-audit-results-compliance-failures.png)
 
-## Key Takeaways
+## What changed & why
 
-- Using a template standardizes scan configuration and makes repeat scans consistent.
-- Credentialed Windows scanning improves depth versus network-only checks.
-- STIG compliance audits add policy-level assessment beyond CVE/plugin vulnerability checks.
-- Audit failures in Tenable compliance results confirm the STIG audit executed and produced actionable control-level findings.
-- Targeted plugin selection can reduce unnecessary scan noise while keeping required coverage.
+Compared with a standard vulnerability-only run, this workflow adds a reusable template plus compliance auditing. Credentialed checks allow deeper host inspection, and STIG policy audits validate security-control posture rather than only service-exposed vulnerabilities.
 
-## Redaction Note
+## Notable findings (examples)
 
-This lab evidence may include sensitive identifiers (public/private IPs, hostnames, usernames, scanner names, or tenant details). Redact or blur these fields before any public publishing.
+Tenable compliance output shows failed STIG controls, demonstrating that the policy audit executed successfully and produced control-level remediation targets. The scan configuration evidence also confirms deliberate scope choices for discovery, assessment depth, compliance checks, and plugin categories.
 
-## Source Brief
+## Redaction note
+
+Current screenshots and artifacts may include sensitive identifiers (for example internal/public IP addresses, hostnames, usernames, scanner names, or tenant details). Before publishing publicly, crop or blur sensitive fields and redact identifiers.
+
+## Source brief
 
 - Lab notes: `source/lab-brief.docx`
