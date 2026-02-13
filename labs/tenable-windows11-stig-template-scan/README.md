@@ -54,11 +54,15 @@ Build and use a reusable Tenable scan template for a Windows 11 VM, then run a c
 ### 9) Final scan setup from template
 ![Scan setup from template](evidence/09-scan-setup-from-template.png)
 
+### 10) Audit results showing compliance failures
+![Audit compliance failures](evidence/10-audit-results-compliance-failures.png)
+
 ## Key Takeaways
 
 - Using a template standardizes scan configuration and makes repeat scans consistent.
 - Credentialed Windows scanning improves depth versus network-only checks.
 - STIG compliance audits add policy-level assessment beyond CVE/plugin vulnerability checks.
+- Audit failures in Tenable compliance results confirm the STIG audit executed and produced actionable control-level findings.
 - Targeted plugin selection can reduce unnecessary scan noise while keeping required coverage.
 
 ## Redaction Note
