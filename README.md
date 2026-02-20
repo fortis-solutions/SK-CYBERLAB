@@ -10,6 +10,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning)
 - [Tenable Windows: Troubleshooting and Deeply Understanding Scans](labs/tenable-windows-scan-troubleshooting-deep-dive/)
 - [Tenable Windows: Agent-Based Monitoring and Triggered Scans](labs/tenable-windows-agent-based-monitoring/)
 - [Tenable Linux: Agent Scan Trigger Validation](labs/tenable-linux-agent-triggered-scan/)
+- [Tenable Windows: Manual Vulnerability Creation and Remediation](labs/tenable-windows-manual-vuln-remediation/)
 
 ## Redaction policy
 
