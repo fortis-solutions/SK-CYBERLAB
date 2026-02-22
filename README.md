@@ -12,6 +12,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning)
 - [Tenable Linux: Agent Scan Trigger Validation](labs/tenable-linux-agent-triggered-scan/)
 - [Tenable Windows: Manual Vulnerability Creation and Remediation](labs/tenable-windows-manual-vuln-remediation/)
 - [Tenable Linux: Manual Vulnerability Creation and Remediation](labs/tenable-linux-manual-vuln-remediation/)
+- [Tenable Windows: Programmatic Vulnerability Remediation](labs/tenable-windows-programmatic-vuln-remediation/)
 
 ## Redaction policy
 
