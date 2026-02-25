@@ -1,8 +1,10 @@
 # SK-Cyber-lABS
 
-Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning).
+Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning, threat hunting, and detection engineering).
 
 ## Labs
+
+### Tenable / Vulnerability Management
 
 - [Tenable Windows: Authenticated vs Unauthenticated](labs/tenable-windows-auth-vs-unauth/)
 - [Tenable Linux: Authenticated vs Unauthenticated](labs/tenable-linux-auth-vs-unauth/)
@@ -13,6 +15,10 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning)
 - [Tenable Windows: Manual Vulnerability Creation and Remediation](labs/tenable-windows-manual-vuln-remediation/)
 - [Tenable Linux: Manual Vulnerability Creation and Remediation](labs/tenable-linux-manual-vuln-remediation/)
 - [Tenable Windows: Programmatic Vulnerability Remediation](labs/tenable-windows-programmatic-vuln-remediation/)
+
+### Threat Hunting / Detection Engineering
+
+- [Microsoft Sentinel + MDE: Remote Code Execution Detection and Isolation](labs/threat-hunting-sentinel-rce-detection-isolation/)
 
 ## Redaction policy
 
