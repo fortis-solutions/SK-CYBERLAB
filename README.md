@@ -20,6 +20,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning,
 
 - [Microsoft Sentinel + MDE: Remote Code Execution Detection and Isolation](labs/threat-hunting-sentinel-rce-detection-isolation/)
 - [Microsoft Sentinel + MDE: Scenario 2 - Sudden Network Slowdowns](labs/threat-hunting-sentinel-network-slowdowns/)
+- [Microsoft Sentinel + MDE: Scenario 3 - Suspected Data Exfiltration](labs/threat-hunting-sentinel-suspected-data-exfiltration/)
 
 ## Redaction policy
 
