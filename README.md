@@ -27,6 +27,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning,
 - [Microsoft Sentinel + MDE: Scenario 2 - Sudden Network Slowdowns](labs/threat-hunting-sentinel-network-slowdowns/)
 - [Microsoft Sentinel + MDE: Scenario 3 - Suspected Data Exfiltration](labs/threat-hunting-sentinel-suspected-data-exfiltration/)
 - [Microsoft Sentinel + MDE: Scenario 4 - PwnCrypt Zero-Day Ransomware](labs/threat-hunting-sentinel-pwncrypt-zero-day/)
+- [Threat Hunting Report: The Broker](labs/threat-hunting-broker-activity-report/)
 
 ## Redaction policy
 
