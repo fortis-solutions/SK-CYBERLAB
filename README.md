@@ -22,6 +22,7 @@ Hands-on cyber labs with evidence and write-ups (Tenable vulnerability scanning,
 - [Microsoft Sentinel + MDE: PowerShell Suspicious Web Request](labs/threat-hunting-sentinel-powershell-web-request/)
 - [Microsoft Sentinel + MDE: Potential Impossible Travel](labs/threat-hunting-sentinel-impossible-travel/)
 - [Microsoft Sentinel + MDE: Excessive Azure Resource Creation or Deletion](labs/threat-hunting-sentinel-excessive-resource-operations/)
+- [Microsoft Sentinel + MDE: Unauthorized TOR Usage](labs/threat-hunting-sentinel-unauthorized-tor-usage/)
 - [Microsoft Sentinel + MDE: Remote Code Execution Detection and Isolation](labs/threat-hunting-sentinel-rce-detection-isolation/)
 - [Microsoft Sentinel + MDE: Scenario 2 - Sudden Network Slowdowns](labs/threat-hunting-sentinel-network-slowdowns/)
 - [Microsoft Sentinel + MDE: Scenario 3 - Suspected Data Exfiltration](labs/threat-hunting-sentinel-suspected-data-exfiltration/)
